@@ -36,9 +36,9 @@
   --sidebar-border: oklch(0.65 0.13 81.66);
   --sidebar-ring: oklch(0.75 0.15 84.05);
 
-  --font-sans: Delius Swash Caps;
-  --font-serif: Delius Swash Caps;
-  --font-mono: Delius Swash Caps;
+  --font-sans: var(--font-dancing-script);
+  --font-serif: var(--font-dancing-script);
+  --font-mono: var(--font-dancing-script);
 
   --radius: 0.625rem;
 
@@ -155,4 +155,18 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@keyframes gradient {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 15s ease infinite;
 }
