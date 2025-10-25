@@ -1,0 +1,16 @@
+- [x] Move New Quote button closer to the quote box
+- [x] Try a different cursive font (switched to Playfair Display)
+- [x] Slightly expand the quote box with animation when hovered and shrink it back to original size when not hovered
+- [x] Remove the title completely from above the quote box (remove Daily Inspiration) Keep the title in the nav bar
+- [x] Remove the background and border from the nav bar (the buttons and the title should be the only thing in the nav bar)
+- [x] Remove the emojis from the About and Donate buttons
+- [x] Ensure the quote box is centered
+- [x] Please locally store a list of viewed quotes and don't show the same quote twice (unless the user has seen all the quotes, in that case clear the list and start over)
+- [x] When hovering animate in a copy clipboard icon (copy to clipboard). when clicked (and when click anywhere in the quote box) animate copy the quote to the clipboard with a success message.
+- [x] When About and Donate buttons are hovered, slightly expand the button and shrink it back to original size when not hovered
+- [x] Add padding between "Made with ❤️ by Cooper Walter" and the containing box
+- [x] On the Donate page, replace the Buy Me a Coffee button with links to three charities: The Life You Can Save, UNICEF, and St. Jude Children's Research Hospital. Include a short description of each charity, their logo, and a link to their website.
+- [x] Add padding between "Made with ❤️ by Cooper Walter" and the containing box. this isn't working correctly.
+- [x] In the non-home pages, please change the bottom back button to a simple back arrow icon in the top left
+- [x] Remove the white backgrounds from the charity emojis on the Donate page
+- [ ] Move the footer in the donate page to below the main content box (similar to the about page)
