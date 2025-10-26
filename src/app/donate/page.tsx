@@ -68,7 +68,7 @@ export default function Donate() {
                       <div>
                         <h3 className="text-xl font-bold text-white mb-2">UNICEF</h3>
                         <p className="text-white/80 text-base">
-                          Works in over 190 countries to save children's lives, defend their rights, and help them fulfill their potential.
+                          Works in over 190 countries to save children&apos;s lives, defend their rights, and help them fulfill their potential.
                         </p>
                       </div>
                     </div>
@@ -85,7 +85,7 @@ export default function Donate() {
                         🏥
                       </div>
                       <div>
-                        <h3 className="text-xl font-bold text-white mb-2">St. Jude Children's Research Hospital</h3>
+                        <h3 className="text-xl font-bold text-white mb-2">St. Jude Children&apos;s Research Hospital</h3>
                         <p className="text-white/80 text-base">
                           Leading the way the world understands, treats and defeats childhood cancer and other life-threatening diseases.
                         </p>

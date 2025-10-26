@@ -23,7 +23,7 @@ const cardVariants = {
     y: 0,
     transition: {
       duration: 0.6,
-      ease: [0.22, 1, 0.36, 1],
+      ease: [0.22, 1, 0.36, 1] as const,
     },
   },
   exit: {
@@ -31,10 +31,10 @@ const cardVariants = {
     scale: 0.95,
     transition: {
       duration: 0.3,
-      ease: 'easeIn',
+      ease: 'easeIn' as const,
     },
   },
-};
+} as const;
 
 const quoteTextVariants = {
   initial: { opacity: 0, y: 20 },
@@ -44,10 +44,10 @@ const quoteTextVariants = {
     transition: {
       duration: 0.5,
       delay: 0.2,
-      ease: 'easeOut',
+      ease: 'easeOut' as const,
     },
   },
-};
+} as const;
 
 const authorVariants = {
   initial: { opacity: 0, x: 20 },
@@ -57,10 +57,10 @@ const authorVariants = {
     transition: {
       duration: 0.5,
       delay: 0.4,
-      ease: 'easeOut',
+      ease: 'easeOut' as const,
     },
   },
-};
+} as const;
 
 export function QuoteCard({ quote, isLoading }: QuoteCardProps) {
   const [copied, setCopied] = useState(false);
@@ -167,7 +167,7 @@ export function QuoteCard({ quote, isLoading }: QuoteCardProps) {
               className="text-2xl md:text-3xl lg:text-4xl font-light leading-relaxed text-white"
               style={{ fontFamily: 'var(--font-dancing-script)' }}
             >
-              "{quote.content}"
+              &ldquo;{quote.content}&rdquo;
             </motion.p>
             <footer className="mt-8">
               <motion.cite
